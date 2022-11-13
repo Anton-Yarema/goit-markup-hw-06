@@ -544,6 +544,7 @@ body {
 .footer-bot {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .join {
@@ -589,17 +590,19 @@ body {
   margin-right: 93px;
 }
 
-.subscribe-list {
+.form-subscribe {
+  position: relative;
+
   display: flex;
   align-items: baseline;
   justify-content: center;
   gap: 12px;
+  margin-top: 20px;
 }
 
 .subscribe-mail-item {
   width: 358px;
   height: 50px;
-  margin-top: 20px;
   padding: 0;
   padding-left: 16px;
 
@@ -608,10 +611,6 @@ body {
   border-radius: 4px;
   background-color: var(--title-color);
   color: rgba(255, 255, 255, 0.6);
-}
-
-.subscribe-icon {
-  position: relative;
 }
 
 .send-icon {
@@ -705,12 +704,6 @@ body {
 
 .button.primary:active {
   background-color: #188ce8;
-}
-
-.button-join {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .btn-join {
@@ -943,7 +936,7 @@ body {
   margin-top: 4px;
   margin-bottom: 20px;
   height: 120px;
-  color: rgba(117, 117, 117, 0.5);
+  color: var(--title-text-color);
 }
 
 .form-textarea:hover,
